@@ -1,0 +1,23 @@
+# Credenciais — NUNCA commitar
+.env
+*.ovpn
+*.key
+*.pem
+*.crt
+ca.crt
+ta.key
+pki/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Relatórios gerados
+/tmp/*.pdf
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
