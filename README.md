@@ -3,7 +3,7 @@
 > **Blue Team + Red Team Home Laboratory**  
 > Detecção, Resposta e Relatórios Automáticos com IA em Tempo Real
 
-![SENTINEL LAB Architecture](docs/architecture.png)
+![SENTINEL LAB Architecture](architecture.png)
 
 ---
 
