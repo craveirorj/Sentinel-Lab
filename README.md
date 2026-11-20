@@ -3,6 +3,8 @@
 > **SOC doméstico completo — Blue Team & Red Team**
 > Deteção, threat intelligence, resposta automática e análise de tráfego em tempo real, construídos em hardware de consumidor.
 
+![SENTINEL LAB — arquitetura](architecture.png)
+
 🇬🇧 *A home Security Operations Center built on Proxmox, OpenWRT, Wazuh and Suricata: full-network traffic mirroring (GRETAP), firewall and threat-intel logs in the SIEM, automatic network-wide blocking with Telegram alerts, honeypots and an isolated vulnerable lab. The full manual (in Portuguese) documents every component, every mistake and how it was fixed.*
 
 ---
