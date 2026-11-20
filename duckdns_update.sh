@@ -4,7 +4,7 @@
 
 source /opt/sentinel/.env 2>/dev/null
 
-DOMAINS="sentinel,vpnlab"
+DOMAINS="o-teu-subdominio"   # ex.: meulab-xyz (sem .duckdns.org)
 curl -s "https://www.duckdns.org/update?domains=${DOMAINS}&token=${DUCKDNS_TOKEN}&ip=" \
     >> /var/log/duckdns.log 2>&1
 

@@ -1,11 +1,11 @@
 #!/bin/bash
 # Gerar ficheiro .ovpn para cliente OpenVPN
 # Uso: ./gen_ovpn.sh <nome_cliente>
-# Correr no LXC OpenVPN (192.168.1.105)
+# Correr no LXC OpenVPN (192.168.50.105)
 
 CLIENT=$1
 EASYRSA='/etc/openvpn/easy-rsa'
-SERVER_DOMAIN='vpnlab.duckdns.org'
+SERVER_DOMAIN='meulab.exemplo.duckdns.org'
 SERVER_PORT='1194'
 
 if [ -z "$CLIENT" ]; then
@@ -43,4 +43,4 @@ key-direction 1
 OVPN
 
 echo "Ficheiro gerado: /root/${CLIENT}.ovpn"
-echo "Copiar para o PC: scp root@192.168.1.105:/root/${CLIENT}.ovpn ."
+echo "Copiar para o PC: scp root@192.168.50.105:/root/${CLIENT}.ovpn ."
